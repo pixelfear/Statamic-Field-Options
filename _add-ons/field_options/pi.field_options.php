@@ -21,7 +21,7 @@ class Plugin_field_options extends Plugin
 		if ($options = array_get($field_config, 'options')) {
 			foreach ($options as $key => $val) {
 				$field_config['options'][] = array(
-					'name'  => $key,
+					'key'  => $key,
 					'value' => $val
 				);
 				unset($field_config['options'][$key]);
