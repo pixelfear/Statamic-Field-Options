@@ -48,3 +48,9 @@ colors:
 {{ /field_options }}
 </select>
 ```
+
+
+## Parameters
+
+* `fieldset`: If your page doesn't have a `_fieldset` defined in the front-matter, you can specify your fieldset manually here.
+* `field`: The name of the field you want to grab options from.
